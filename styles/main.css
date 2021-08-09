@@ -1,0 +1,21 @@
+/* Content First - Mobile First */
+    /* General Rules */
+    *{
+        box-sizing: border-box;
+        font-family: 'Segoe UI', 'calibri', 'verdana', sans-serif;
+
+    }
+    body,
+    h1,
+    h2,
+    h3,
+    h4{
+        margin: 0;
+    }
+/* Small Devices - Smartphones */
+
+/* Medium Devices - Tablets */
+
+/* Large Devices - Laptops */
+
+/* Extra Large Devices - HD Desktops */
