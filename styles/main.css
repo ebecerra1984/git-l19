@@ -68,7 +68,7 @@
 /* Large Devices - Laptops */
 
 /* Extra Large Devices - HD Desktops */
-@media  and (min-width: 1200px){
+@media screen and (min-width: 1200px){
     nav{
         justify-content: space-around;
     }
