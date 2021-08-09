@@ -54,7 +54,22 @@
 /* Small Devices - Smartphones */
 
 /* Medium Devices - Tablets */
+@media screen and (min-width: 768px) {
+    nav .btn{
+        display: none;
+    }
+    .menu{
+        display: flex;
+        width: auto;
+        max-height: 600px;
+    }
+}
 
 /* Large Devices - Laptops */
 
 /* Extra Large Devices - HD Desktops */
+@media  and (min-width: 1200px){
+    nav{
+        justify-content: space-around;
+    }
+}
