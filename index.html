@@ -64,6 +64,20 @@
           <li><strong>git restore --staged &lt;file></strong> resstablece los cambios del INDEX de un archivo en particular respecto de la ultima confirmacion.</li>
         </ul>
       </article>
+      <article>
+        <h3>Repository</h3>
+        <p>
+          Area donde se almacenan las confirmaciones de cambios en formato <strong>BLOB(Binary Large Object File)</strong>, las mismas apuntan a otras confirmaciones a traves de referencias. Gracias a esto es posible navegar dentro de la historia de nuestro proyecto, para ver el estado del mismo durante las diferentes modificaciones.
+        </p>
+        <ul class="commands">
+          <li><strong>git commit </strong> abre el editor de codigo predeterminado para generar un archivo de confirmacion</li>
+          <li><strong>git checkout &lt;ref></strong> permite volver a un punto anterior dentro del proyecto segun lo indicado.</li>
+          <li><strong>git diff</strong> muestra las diferencias entre el Working Directory y el ultimo commit.</li>
+          <li><strong>git log</strong> muestra el historial de confirmaciones en forma de arbol, con los numeros de HASH pertinentes.</li>
+          <li><strong>git remote add &lt;alias> &lt;url></strong> agrega una direccion como repositorio remoto.</li>
+          <li><strong>git push -u &lt;remote> &lt;branch></strong> sube los cambios realizados al repositorio remoto.</li>
+        </ul>
+      </article>
     </section>
   </body>
 </html>
