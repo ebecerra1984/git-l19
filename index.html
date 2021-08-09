@@ -44,6 +44,26 @@
           </li>
         </ul>
       </article>
+      <article>
+        <h3>Stagin Area (INDEX)</h3>
+        <p>
+          Es el area de control de cambios, donde se realizan las capturas de pantalla del codigo. Todo contenido que no sea agregado a esta area seá ignorado por git y por lo tanto no podra recuperarse en caso de perdida. Una vez agregado, git esta verificando si se realizaron modificaiones en el mismo.
+        </p>
+        <ul class="commands">
+          <li><strong>git status </strong>Muestra el estado de los archivos comparados con la ultima confirmacion de cambios. Los valores que puede devolver son los siguientes:
+            <ul>
+              <li><strong>untracked </strong> el archivo aun no fue agregado al INDEX y por lo tanto no se le esta haciendo seguimiento</li>
+              <li><strong>tracked</strong> los cambios fueron agregados al INDEX y estan listos para ser confirmados</li>
+              <li><strong>modified </strong> el archivo al que se le esta haciendo seguimiento presenta diferencias con respecto a la ultima modificacion</li>
+              <li><strong>commit </strong> loc cambios registrados fueron almacenados en el repositorio mediante una confirmacion.</li>
+            </ul>
+          </li>
+          <li><strong>git add &lt;file> </strong> agregamos los archivos selecionados al INDEX para realizarles seguimiento.</li>
+          <li><strong>git blame &lt;file> </strong> indentifica a los autores de las modificaciones de un archivo en particular, siempre y cuando hayan sido confirmadas.</li>
+          <li><strong>git rm --cached &lt;file></strong> quita del INDEX los cambios almacenados de un archivo en particular, pero mantiene el mismo en el Working Directory</li>
+          <li><strong>git restore --staged &lt;file></strong> resstablece los cambios del INDEX de un archivo en particular respecto de la ultima confirmacion.</li>
+        </ul>
+      </article>
     </section>
   </body>
 </html>
